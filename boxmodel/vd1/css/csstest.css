@@ -1,0 +1,33 @@
+
+div.main{
+    display: flex;
+    justify-content: space-between;
+}
+div.head {
+    width: 80%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    background-color: #72C953;
+  }
+  div.left {
+    width: 20%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+
+  }
+  div.right {
+    border-radius: 100px;
+    width: 20%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+
+  }
+  div.footer {
+    width: 80%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
