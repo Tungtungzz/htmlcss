@@ -2,12 +2,10 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
 }
 label{
-    display: block;
     font-weight: bold;
     margin: 2px;
 }
 input{
-    display: block;
     margin: 0px;
     margin-bottom: 5px;
     border-radius: 5px;
@@ -37,6 +35,7 @@ div.box1
 }
 div.box2
 {
+    display: block;
     text-align: left;
     border-radius: 10px;
     width: 200px;
