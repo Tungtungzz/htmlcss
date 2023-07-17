@@ -14,7 +14,6 @@ var menu = {
 function createDrinkMenu() {
     var menuContainer = document.getElementById("menu-container");
     var menuList = document.createElement("ul");
-    console.log("here");
 
     for (var drink in menu) {
         var price = menu[drink].price.toFixed(2);
@@ -33,7 +32,6 @@ function createDrinkMenu() {
         menuItem.appendChild(drinkImage);
         menuItem.appendChild(drinkName);
         menuItem.appendChild(drinkPrice);
-
         menuList.appendChild(menuItem);
     }
 
