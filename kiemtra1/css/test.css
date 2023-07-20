@@ -1,0 +1,60 @@
+header, footer{
+    display: block;
+}
+h1{
+    text-indent: -9999px;
+    height: 20px;
+    margin: 0px;
+}
+header{
+
+    width: 60%;
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+    padding-top: 40px;
+}
+div.box1{
+    padding-right: 15%;
+    display: inline;
+}
+div.box1 img
+{
+    width: 10%;
+}
+div.box2{
+    display: inline;
+    font-size: 20px;
+}
+header img{
+    width: 100%;
+}
+div.box3
+{
+    margin-top: 20px;
+    display: grid;
+    text-align: left;
+    width: 60%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+}
+input{
+    margin-bottom: 10px;
+}
+textarea{
+    width: 60%;
+}
+footer{
+margin-top: 20px;
+    width: 60%;
+    font-weight: bold;
+    border-top: 2px solid gray;
+
+}
+div.box4{
+    display: inline;
+    font-size: 15px;
+}
+.box5{
+    float:right;
+    font-size: 15px;
+}
